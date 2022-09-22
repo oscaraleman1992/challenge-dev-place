@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let inicio= 0;
+        let final=1000;
+
+        var numero= inicio + Math.floor( Math.random() * final)
+        console.log(numero)
+        var int_num=parseInt(prompt("introducir un numero"))
+    
+        if (int_num > numero) {
+            
+            document.write("su numero es mayor")
+           
+        } else if (int_num < numero) {
+            
+            document.write("su numero es menor")
+        } else {
+            document.write ("su numero es igual")
+        }
+    
+        
+    </script>
+</body>
+</html>

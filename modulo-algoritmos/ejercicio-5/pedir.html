@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var valorMax= 0 ; 
+    var valorMin=9999;
+    var negativo= -1;
+    var num = parseInt(prompt("ingrese un numero y por fin ingrese -1"))
+
+    
+
+    while (num !=negativo) {
+     
+        if (num > valorMax) {
+            valorMax = num
+            
+        }else{
+            valorMin=num
+            
+        }
+        num=parseInt(prompt("ingrese un numero y por fin ingrese -1"))
+          
+    }
+
+    console.log("el valor maximo es " + valorMax + " "+ "y el valor minimo es" + " " + valorMin)
+     
+
+
+
+
+    </script>
+</body>
+</html>
